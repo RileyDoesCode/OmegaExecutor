@@ -1,5 +1,5 @@
 if not isfile("new_logo.png") then
-local new_logo = game:HttpGetAsync("https://raw.githubusercontent.com/delta-hydro/secret-host-haha/main/lxnnypfp7.png")
+local new_logo = game:HttpGetAsync("https://raw.githubusercontent.com/RileyDoesCode/OmegaExecutor/refs/heads/main/omegalogo.png")
 writefile("new_logo.png", new_logo)
 end
 
