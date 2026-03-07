@@ -1,6 +1,6 @@
-if not isfile("new_logo.png") then
+if not isfile("omeganewlogo.png") then
 local new_logo = game:HttpGetAsync("https://raw.githubusercontent.com/RileyDoesCode/OmegaExecutor/refs/heads/main/omegalogo.png")
-writefile("new_logo.png", new_logo)
+writefile("omeganewlogo.png", new_logo)
 end
 
 makefolder("d_android_script_dir")
@@ -42,7 +42,7 @@ G2L["4"]["Name"] = [[SideFrame]];
 -- StarterGui.OmegaGui.KeySystem.MainKeyFrame.SideFrame.Logo
 G2L["5"] = Instance.new("ImageLabel", G2L["4"]);
 G2L["5"]["BackgroundColor3"] = Color3.fromRGB(143, 130, 255);
-G2L["5"]["Image"] = getcustomasset("new_logo.png")
+G2L["5"]["Image"] = getcustomasset("omeganewlogo.png")
 G2L["5"]["Size"] = UDim2.new(1.0185703039169312, 0, 0.3629874587059021, 0);
 G2L["5"]["Name"] = [[Logo]];
 G2L["5"]["BackgroundTransparency"] = 1;
@@ -2029,7 +2029,7 @@ G2L["132"]["Name"] = [[DraggableStuff]];
 -- StarterGui.OmegaGui.FloatingIcon
 G2L["133"] = Instance.new("ImageButton", G2L["1"]);
 G2L["133"]["BackgroundColor3"] = Color3.fromRGB(20, 20, 23);
-G2L["133"]["Image"] = getcustomasset("new_logo.png")
+G2L["133"]["Image"] = getcustomasset("omeganewlogo.png")
 G2L["133"]["Size"] = UDim2.new(0.07388234883546829, 0, 0.1319999247789383, 0);
 G2L["133"]["Name"] = [[FloatingIcon]];
 G2L["133"]["Visible"] = false;
